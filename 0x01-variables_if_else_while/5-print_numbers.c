@@ -1,17 +1,15 @@
 #include <stdio.h>
+
 /**
  * main - entry point
- * Return: 0 (success)
+ * Return: 0 success
  */
-
 int main(void)
 {
-	int a;
+		int num;
 
-	for (a = 0; a <= 10; a++)
-	{
-		putchar(a);
-	}
-	putchar('\n');
-	return (0);
+		for (num = 0; num < 10; num++)
+		printf("%d", num);
+		printf("\n");
+		return (0);
 }
