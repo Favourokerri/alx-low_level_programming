@@ -9,13 +9,13 @@ int main(void)
 	char C;
 
 	c = 'a';
+	C = 'A';
 		while (c <= 'z')
 		{
 			putchar(c);
 			c++;
 		}
 
-	C = 'A';
 		while (c <= 'Z')
 		{
 			putchar(C);
