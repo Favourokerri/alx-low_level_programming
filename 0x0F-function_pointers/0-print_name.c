@@ -1,6 +1,4 @@
 #include "function_pointers.h"
-#include <stdio.h>
-#include <ctype.h>
 
 /**
  * print_name - function that prints name
