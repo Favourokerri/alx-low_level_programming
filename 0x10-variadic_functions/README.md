@@ -1,0 +1,1 @@
+vardic functions
