@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * free_listint_safe - Frees a listint_t list.
@@ -16,7 +17,7 @@ size_t free_listint_safe(listint_t **h)
 	return (0);
 
 	node = *h;
-	*h = NULL;  /* Set head to NULL */
+	*h = NULL;
 	while (node != NULL)
 	{
 		count++;
