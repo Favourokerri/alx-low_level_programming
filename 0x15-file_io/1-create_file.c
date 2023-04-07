@@ -26,7 +26,7 @@ int create_file(const char *filename, char *text_content)
 			len++;
 	}
 
-	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0666);
+	fd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0666);
 
 	if (fd == -1)
 	{
